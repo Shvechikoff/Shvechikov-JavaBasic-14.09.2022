@@ -3,8 +3,6 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        int generateKills = new Random().nextInt(0, 30);
-
         String teamNavi = "NaVi";
 
         int naviPlayer1 = new Random().nextInt(30);
