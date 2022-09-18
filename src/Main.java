@@ -16,6 +16,7 @@ public class Main {
         int liTotalDamage = liWarrior * liPeople + liArcher * liPeople + liRider * liPeople;
         int minTotalDamage = (int) (minWarrior * minPeople + minArcher * minPeople + minRider * minPeople);
 
-        System.out.println("Li total damage: " + liTotalDamage + "\n" + "Min total damage: " + minTotalDamage);
+        System.out.println("Li total damage: " + liTotalDamage + "\n" +
+                "Min total damage: " + minTotalDamage);
     }
 }
